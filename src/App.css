@@ -1,0 +1,63 @@
+.text-center {
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.box{
+  border: 2px solid rgb(102, 227, 177);
+  width: 110px;
+  height: 100px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 35px;
+
+}
+
+.box:hover{
+  cursor: pointer;
+  transition: 1s;
+  box-shadow: 0 0 10px 4px rgb(143, 253, 209);
+  border: 2px solid  rgb(69, 192, 143) ;
+  z-index: 100;
+}
+
+.board {
+  display: block;
+  margin: 30px auto;
+  background-color: rgb(102, 227, 177);
+width: fit-content;
+padding: 15px;
+}
+
+.player-container{
+  display: flex;
+  justify-content: space-around;
+}
+
+.winner-text{
+  display: block;
+ margin: 40px auto;
+  background-color: rgb(72, 238, 182);
+  width: fit-content;
+  padding: 5px 50px;
+  border-radius: 5px;
+}
+
+.reset-btn {
+  padding: 10px;
+  display: block;
+  font-weight: bold;
+  margin: 30px auto;
+  width: 220px;
+  border: none;
+  border-radius: 5px;
+  font-size: 17px;
+  background-color:  rgb(34, 225, 149);
+}
