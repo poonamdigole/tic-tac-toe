@@ -95,7 +95,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1 className='text-center'>Tic-Tac-Toe</h1>
+      <h1 className='text-center heading'>Tic-Tac-Toe</h1>
 
       <div className='player-container'>
         <h2>Player 1 : ❌</h2>
